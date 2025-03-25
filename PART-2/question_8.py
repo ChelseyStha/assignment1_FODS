@@ -1,3 +1,4 @@
+'''Program to generate a random number and be able to guess the number 5 times, then make it end after 5 tries'''
 import random
 
 # Generate a random number 
