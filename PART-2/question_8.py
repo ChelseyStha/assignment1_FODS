@@ -3,7 +3,7 @@ import random
 
 # Generate a random number 
 answer = random.randint(1, 100)
-for attempt in range(1, 6):
+for attempt in range(1, 6): #to guess the number 5 times
 
     guess = int(input(f"Attempt {attempt}: Enter your guess: "))
 
@@ -17,4 +17,4 @@ for attempt in range(1, 6):
         break
 else:
     
-    print("Game Over! The correct number was:", answer)
+    print("Game Over! The correct number was:", answer) #end after 5 tries
